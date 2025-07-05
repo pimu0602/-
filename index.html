@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第75回 琵琶湖花火大会</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>第75回 琵琶湖花火大会</h1>
+            <p class="date">2025年8月8日（金）19:30〜20:30</p>
+            <p class="location">滋賀県大津市 琵琶湖湖畔</p>
+            
+            <div class="countdown-container">
+                <h3>開催まであと</h3>
+                <div id="countdown" class="countdown">
+                    <!-- カウントダウンがここに表示されます -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#about">大会について</a></li>
+            <li><a href="#schedule">スケジュール</a></li>
+            <li><a href="#access">アクセス</a></li>
+            <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>大会について</h2>
+            <div class="content">
+                <p>琵琶湖を舞台に繰り広げられる大規模な花火大会です。今年で75回目を迎える伝統ある大会で、約10,発の花火が琵琶湖の夜空を彩ります。</p>
+                <div class="gallery">
+                    <!-- 画像は後で追加 -->
+                    <div class="gallery-placeholder">ギャラリー画像</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="schedule" class="section">
+            <h2>スケジュール</h2>
+            <div class="content">
+                <ul class="schedule-list">
+                    <li><span class="time">17:00</span> 会場オープン</li>
+                    <li><span class="time">19:00</span> オープニングセレモニー</li>
+                    <li><span class="time">19:30</span> 花火大会開始</li>
+                    <li><span class="time">20:30</span> フィナーレ</li>
+                    <li><span class="time">21:00</span> 完全撤収</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="access" class="section">
+            <h2>アクセス</h2>
+            <div class="content">
+                <div class="access-info">
+                    <h3>会場</h3>
+                    <p>〒520-0000 滋賀県大津市浜大津5丁目 琵琶湖湖畔</p>
+                    
+                    <h3>電車でのアクセス</h3>
+                    <p>JR大津駅より徒歩15分</p>
+                    <p>京阪電鉄浜大津駅より徒歩5分</p>
+                    
+                    <h3>お車でのアクセス</h3>
+                    <p>名神高速道路 大津ICより約20分</p>
+                    <p class="note">※会場周辺は大変混雑が予想されますので、公共交通機関のご利用をおすすめします。</p>
+                </div>
+                <div class="map">
+                    <!-- 地図は後で埋め込み -->
+                    <div class="map-placeholder">地図が表示されます</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>お問い合わせ</h2>
+            <div class="content">
+                <p>お問い合わせは以下のフォームよりお願いいたします。</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">お名前</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">メールアドレス</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">お問い合わせ内容</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">送信する</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 琵琶湖花火大会実行委員会</p>
+            <p>当サイトの画像・文章の無断転載を禁じます。</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
